@@ -22,3 +22,6 @@ This project uses a telecom customer churn dataset containing customer usage pat
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+**## Business Value**
+This dashboard helps organisations identify patterns in customer churn by analysing usage behaviour and service interactions. It enables data-driven decision-making for customer retention strategies, reducing revenue loss and improving customer satisfaction.
