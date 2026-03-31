@@ -8,8 +8,9 @@ st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
 st.title("Customer Churn Dashboard")
 st.write("Interactive dashboard for telecom customer churn analysis.")
 
-file_path = Path("/Users/nida/GitHub/data_dashboard/data/churn_data_80.csv")
+from pathlib import Path
 
+file_path = Path("data/churn_data_80.csv")
 if not file_path.exists():
     st.error(f"File not found: {file_path}")
     st.stop()
